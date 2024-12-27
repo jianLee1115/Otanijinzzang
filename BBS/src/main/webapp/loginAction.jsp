@@ -14,7 +14,7 @@
 
 <title>JSP 게시판 웹사이트</title>
 </head>
-<body>
+<body>                                                                  
 <%
 	UserDAO userDAO = new UserDAO(); //인스턴스 생성
 	int result = userDAO.login(user.getUserID(),user.getUserPassword());
